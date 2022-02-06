@@ -123,7 +123,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/ECOVELogo.JPG"
+                        src="/myPortfolio_React/img/ECOVELogo.jpg"
                         alt="ECOVELogo"
                       />
                     </div>
