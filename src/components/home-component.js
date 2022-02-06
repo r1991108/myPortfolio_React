@@ -3,10 +3,10 @@ import React, { useEffect } from "react";
 const HomeComponent = () => {
   useEffect(() => {
     const text = document.querySelectorAll(".thePaths");
-    console.log("text", text);
+    // console.log("text", text);
 
     for (let i = 0; i < text.length; i++) {
-      console.log(`text number ${i} length is ${text[i].getTotalLength()}`);
+      // console.log(`text number ${i} length is ${text[i].getTotalLength()}`);
     }
     const lastWord = document.querySelector("#fourth");
     const animation = document.querySelector("div.animation");
