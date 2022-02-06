@@ -12,7 +12,7 @@ const NavComponent = () => {
       <div className="container-fluid">
         <div className="navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            {url === "/" ? (
+            {url === "/myPortfolio_React" ? (
               <li className="nav-item">
                 <Link className="nav-link active" to="/myPortfolio_React">
                   <i className="twicon-taipei101"></i>ホームページ
@@ -25,7 +25,7 @@ const NavComponent = () => {
                 </Link>
               </li>
             )}
-            {url === "/certification" ? (
+            {url === "/myPortfolio_React/certification" ? (
               <li className="nav-item">
                 <Link
                   className="nav-link active"
@@ -44,7 +44,7 @@ const NavComponent = () => {
                 </Link>
               </li>
             )}
-            {url === "/contact" ? (
+            {url === "/myPortfolio_React/contact" ? (
               <li className="nav-item">
                 <Link
                   className="nav-link active"
@@ -60,7 +60,7 @@ const NavComponent = () => {
                 </Link>
               </li>
             )}
-            {url === "/practice" ? (
+            {url === "/myPortfolio_React/practice" ? (
               <li className="nav-item">
                 <Link
                   className="nav-link active"
