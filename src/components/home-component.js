@@ -144,7 +144,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/nchuLogo.jpg"
+                        src={"/myPortfolio_React/img/nchuLogo.jpg"}
                         alt="NCHULogo"
                       />
                     </div>
