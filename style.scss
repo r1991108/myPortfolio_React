@@ -1,0 +1,152 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  .headerTitle {
+    font-size: 2rem;
+  }
+  .headerText {
+    font-size: 1.5rem;
+  }
+}
+.navbar {
+  box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+.navbar-nav {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bg-custom {
+  background-color: #6a6565;
+}
+
+.container {
+  margin: 0 1rem;
+  padding: 0 0;
+  max-width: 95vw;
+}
+.o-3column {
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
+.custom_fontSize_p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  text-justify: distribute;
+
+  ul {
+    li {
+      display: flex;
+      list-style-type: none;
+      margin-bottom: 0.5rem;
+      width: 100%;
+      div {
+        img {
+          width: 3rem;
+          margin-right: 0.5rem;
+          transform: scale(0.7, 0.7);
+          transition: all 0.5s;
+        }
+        img:hover {
+          cursor: pointer;
+          transform: scale(1.1, 1.1);
+        }
+      }
+    }
+  }
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    max-height: 22vw;
+    max-width: 50%;
+    box-shadow: 0 10px 10px -5px rgb(85, 85, 85);
+    &.profile {
+      opacity: 0.8;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.certification_sub {
+  text-align: center;
+  img {
+    width: 100%;
+  }
+}
+
+.iconForContact {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.qrCode {
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 428px) {
+  p {
+    font-size: 1rem;
+  }
+  .section {
+    border-bottom: solid rgb(206, 203, 203) 1px;
+
+    ul {
+      padding: 0;
+      li {
+        div {
+          img {
+            width: 6rem;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .certification_sub {
+    margin-bottom: 1.5rem;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .iconForContact {
+      margin-right: 2rem;
+    }
+  }
+  .profile {
+    img {
+      max-height: 100%;
+      max-width: 70%;
+    }
+  }
+  .qrCode {
+    padding: 1rem 0;
+  }
+  .practice {
+    display: flex;
+    flex-direction: column;
+  }
+}
