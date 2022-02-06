@@ -13,15 +13,23 @@ function App() {
       <HeaderComponent />
       <NavComponent />
       <Routes>
-        <Route exact path="/" element={<HomeComponent />} />
+        <Route exact path="/myPortfolio_React" element={<HomeComponent />} />
         <Route
           exact
-          path="/certification"
+          path="/myPortfolio_React/certification"
           element={<CertificationComponent />}
         />
-        <Route exact path="/contact" element={<ContactComponent />} />
+        <Route
+          exact
+          path="/myPortfolio_React/contact"
+          element={<ContactComponent />}
+        />
 
-        <Route exact path="/practice" element={<PracticeComponent />} />
+        <Route
+          exact
+          path="/myPortfolio_React/practice"
+          element={<PracticeComponent />}
+        />
       </Routes>
     </>
   );
