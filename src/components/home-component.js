@@ -155,7 +155,7 @@ const HomeComponent = () => {
             <div className="h-100 p-3   rounded-3 ">
               <section className="profile">
                 <img
-                  src="./img/IMG_8333.JPG"
+                  src="img/IMG_8333.jpg"
                   alt="personal profile"
                   className="profile"
                 />
