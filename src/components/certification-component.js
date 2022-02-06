@@ -14,7 +14,7 @@ const CertificationComponent = () => {
                 </h2>
 
                 <img
-                  src="./img/awsSaa.jpg"
+                  src="/myPortfolio_React/img/awsSaa.jpg"
                   alt="awsSAACertification"
                   className="shadow-sm profile"
                 />
@@ -30,7 +30,7 @@ const CertificationComponent = () => {
                 </h2>
 
                 <img
-                  src="./img/JLPT.jpg"
+                  src="/myPortfolio_React/img/JLPT.jpg"
                   alt="JLPTN1Certification"
                   className="shadow-sm profile"
                 />
@@ -46,7 +46,7 @@ const CertificationComponent = () => {
                 </h2>
 
                 <img
-                  src="./img/toeic.jpg"
+                  src="/myPortfolio_React/img/toeic.jpg"
                   alt="toeicResult"
                   className="shadow-sm profile"
                 />

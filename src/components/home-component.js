@@ -113,13 +113,19 @@ const HomeComponent = () => {
                 <ul>
                   <li>
                     <div>
-                      <img src="./img/towardLogo.jpg" alt="towardLogo" />
+                      <img
+                        src="/myPortfolio_React/img/towardLogo.jpg"
+                        alt="towardLogo"
+                      />
                     </div>
                     <p>日本 トワード株式会社 プログラマー 2020～現在</p>
                   </li>
                   <li>
                     <div>
-                      <img src="./img/ECOVELogo.JPG" alt="ECOVELogo" />
+                      <img
+                        src="/myPortfolio_React/img/ECOVELogo.JPG"
+                        alt="ECOVELogo"
+                      />
                     </div>
                     <p>台湾 ECOVE エンジニア 2017～2019</p>
                   </li>
@@ -129,7 +135,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="./img/IntercultureLogo.jpg"
+                        src="/myPortfolio_React/img/IntercultureLogo.jpg"
                         alt="IntercultureLogo"
                       />
                     </div>
@@ -137,13 +143,19 @@ const HomeComponent = () => {
                   </li>
                   <li>
                     <div>
-                      <img src="./img/nchuLogo.jpg" alt="NCHULogo" />
+                      <img
+                        src="/myPortfolio_React/img/nchuLogo.jpg"
+                        alt="NCHULogo"
+                      />
                     </div>
                     <p>台湾 中興大学 環境工程学 修士 2016 卒</p>
                   </li>
                   <li>
                     <div>
-                      <img src="./img/nchuLogo.jpg" alt="NCHULogo" />
+                      <img
+                        src="/myPortfolio_React/img/nchuLogo.jpg"
+                        alt="NCHULogo"
+                      />
                     </div>
                     <p>台湾 中興大学 環境工程学 2014 卒</p>
                   </li>
@@ -155,7 +167,7 @@ const HomeComponent = () => {
             <div className="h-100 p-3   rounded-3 ">
               <section className="profile">
                 <img
-                  src={"/myPortfolio_React/img/IMG_8333.jpg"}
+                  src="/myPortfolio_React/img/IMG_8333.jpg"
                   alt="personal profile"
                   className="profile"
                 />
