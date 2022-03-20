@@ -8,6 +8,23 @@ const PracticeComponent = () => {
           <h2>練習成果物</h2>
           <ul className="list-group">
             <li className="list-group-item border-0">
+              ◎ AWS(EventBridge, ECS, CFn, CodePipeline) - using eventbridge to
+              invoke ECS
+              <p>
+                <a
+                  href={"https://github.com/r1991108/eventBridge-ecs"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  ・ eventbridgeで特定の時刻をトリガーとして検知し、
+                  時間になったら、ECSを実行させる{" "}
+                  <span style={{ color: "rgb(30, 30, 86)" }}>
+                    (githubへ遷移)
+                  </span>
+                </a>
+              </p>
+            </li>
+            <li className="list-group-item border-0">
               ◎ MERN project - an online course site
               <p>
                 <a
