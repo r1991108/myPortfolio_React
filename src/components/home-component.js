@@ -114,7 +114,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/towardLogo.jpg"
+                        src="/img/towardLogo.jpg"
                         alt="towardLogo"
                       />
                     </div>
@@ -123,7 +123,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/ECOVELogo.jpg"
+                        src="/img/ECOVELogo.jpg"
                         alt="ECOVELogo"
                       />
                     </div>
@@ -135,7 +135,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/IntercultureLogo.jpg"
+                        src="/img/IntercultureLogo.jpg"
                         alt="IntercultureLogo"
                       />
                     </div>
@@ -153,7 +153,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/nchuLogo.jpg"
+                        src="/img/nchuLogo.jpg"
                         alt="NCHULogo"
                       />
                     </div>
@@ -167,7 +167,7 @@ const HomeComponent = () => {
             <div className="h-100 p-3   rounded-3 ">
               <section className="profile">
                 <img
-                  src="/myPortfolio_React/img/IMG_8333.jpg"
+                  src="/img/IMG_8333.jpg"
                   alt="personal profile"
                   className="profile"
                 />
