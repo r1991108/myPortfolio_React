@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+const REACT_APP_CDN_HOST_URL = process.env.REACT_APP_CDN_HOST_URL;
 const HomeComponent = () => {
   useEffect(() => {
     const text = document.querySelectorAll(".thePaths");

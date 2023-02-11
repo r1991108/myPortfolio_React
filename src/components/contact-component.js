@@ -1,5 +1,6 @@
 import React from "react";
 
+const REACT_APP_CDN_HOST_URL = process.env.REACT_APP_CDN_HOST_URL;
 const ContactComponent = () => {
   return (
     <div className="container py-3 custom_fontSize_p ">
