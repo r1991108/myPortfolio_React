@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+const REACT_APP_CDN_HOST_URL = process.env.REACT_APP_CDN_HOST_URL;
 const CertificationComponent = () => {
   return (
     <main>
@@ -14,7 +14,7 @@ const CertificationComponent = () => {
                 </h2>
 
                 <img
-                  src="/img/awsSaa.jpg"
+                  src={REACT_APP_CDN_HOST_URL + "/public/img/awsSaa.jpg"}
                   alt="awsSAACertification"
                   className="shadow-sm profile"
                 />
