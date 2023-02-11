@@ -13,21 +13,21 @@ function App() {
       <HeaderComponent />
       <NavComponent />
       <Routes>
-        <Route exact path="/myPortfolio_React" element={<HomeComponent />} />
+        <Route exact path="/" element={<HomeComponent />} />
         <Route
           exact
-          path="/myPortfolio_React/certification"
+          path="/certification"
           element={<CertificationComponent />}
         />
         <Route
           exact
-          path="/myPortfolio_React/contact"
+          path="/contact"
           element={<ContactComponent />}
         />
 
         <Route
           exact
-          path="/myPortfolio_React/practice"
+          path="/practice"
           element={<PracticeComponent />}
         />
       </Routes>

@@ -12,24 +12,24 @@ const NavComponent = () => {
       <div className="container-fluid">
         <div className="navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            {url === "/myPortfolio_React" ? (
+            {url === "/" ? (
               <li className="nav-item">
-                <Link className="nav-link active" to="/myPortfolio_React">
+                <Link className="nav-link active" to="/">
                   <i className="twicon-taipei101"></i>ホームページ
                 </Link>
               </li>
             ) : (
               <li className="nav-item">
-                <Link className="nav-link" to="/myPortfolio_React">
+                <Link className="nav-link" to="/">
                   <i className="twicon-taipei101"></i>ホームページ
                 </Link>
               </li>
             )}
-            {url === "/myPortfolio_React/certification" ? (
+            {url === "/certification" ? (
               <li className="nav-item">
                 <Link
                   className="nav-link active"
-                  to="/myPortfolio_React/certification"
+                  to="/certification"
                 >
                   <i className="twicon-balloon"></i> 資格
                 </Link>
@@ -38,40 +38,40 @@ const NavComponent = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="/myPortfolio_React/certification"
+                  to="/certification"
                 >
                   <i className="twicon-balloon"></i> 資格
                 </Link>
               </li>
             )}
-            {url === "/myPortfolio_React/contact" ? (
+            {url === "/contact" ? (
               <li className="nav-item">
                 <Link
                   className="nav-link active"
-                  to="/myPortfolio_React/contact"
+                  to="/contact"
                 >
                   <i className="twicon-l-nh-insurance"></i> 連絡情報
                 </Link>
               </li>
             ) : (
               <li className="nav-item">
-                <Link className="nav-link" to="/myPortfolio_React/contact">
+                <Link className="nav-link" to="/contact">
                   <i className="twicon-l-nh-insurance"></i> 連絡情報
                 </Link>
               </li>
             )}
-            {url === "/myPortfolio_React/practice" ? (
+            {url === "/practice" ? (
               <li className="nav-item">
                 <Link
                   className="nav-link active"
-                  to="/myPortfolio_React/practice"
+                  to="/practice"
                 >
                   <i className="twicon-san-domingo"></i> 練習
                 </Link>
               </li>
             ) : (
               <li className="nav-item">
-                <Link className="nav-link" to="/myPortfolio_React/practice">
+                <Link className="nav-link" to="/practice">
                   <i className="twicon-san-domingo"></i> 練習
                 </Link>
               </li>
