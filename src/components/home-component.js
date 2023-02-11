@@ -114,7 +114,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/img/towardLogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/towardLogo.jpg"}
                         alt="towardLogo"
                       />
                     </div>
@@ -123,7 +123,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/img/ECOVELogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/ECOVELogo.jpg"}
                         alt="ECOVELogo"
                       />
                     </div>
@@ -135,7 +135,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/img/IntercultureLogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/IntercultureLogo.jpg"}
                         alt="IntercultureLogo"
                       />
                     </div>
@@ -144,7 +144,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={"/img/nchuLogo.jpg"}
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"}
                         alt="NCHULogo"
                       />
                     </div>
@@ -153,7 +153,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/img/nchuLogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"}
                         alt="NCHULogo"
                       />
                     </div>
@@ -167,7 +167,7 @@ const HomeComponent = () => {
             <div className="h-100 p-3   rounded-3 ">
               <section className="profile">
                 <img
-                  src="/img/IMG_8333.jpg"
+                  src={REACT_APP_CDN_HOST_URL + "/public/img/IMG_8333.jpg"}
                   alt="personal profile"
                   className="profile"
                 />

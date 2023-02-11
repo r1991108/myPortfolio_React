@@ -30,7 +30,7 @@ const CertificationComponent = () => {
                 </h2>
 
                 <img
-                  src="/img/JLPT.jpg"
+                  src={REACT_APP_CDN_HOST_URL + "/public/img/JLPT.jpg"}
                   alt="JLPTN1Certification"
                   className="shadow-sm profile"
                 />
@@ -46,7 +46,7 @@ const CertificationComponent = () => {
                 </h2>
 
                 <img
-                  src="/img/toeic.jpg"
+                  src={REACT_APP_CDN_HOST_URL + "/public/img/toeic.jpg"}
                   alt="toeicResult"
                   className="shadow-sm profile"
                 />
