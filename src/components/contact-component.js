@@ -1,5 +1,6 @@
 import React from "react";
 
+const REACT_APP_CDN_HOST_URL = process.env.REACT_APP_CDN_HOST_URL;
 const ContactComponent = () => {
   return (
     <div className="container py-3 custom_fontSize_p ">
@@ -12,7 +13,7 @@ const ContactComponent = () => {
               <tr>
                 <td rowSpan="2">
                   <img
-                    src="/myPortfolio_React/img/icon_phone.svg"
+                    src={REACT_APP_CDN_HOST_URL + "/public/img/icon_phone.svg"}
                     alt="phone icon"
                     className="iconForContact"
                   />
@@ -29,7 +30,7 @@ const ContactComponent = () => {
               <tr>
                 <td rowSpan="2">
                   <img
-                    src="/myPortfolio_React/img/icon_email.svg"
+                    src={REACT_APP_CDN_HOST_URL + "/public/img/icon_email.svg"}
                     alt="email icon"
                     className="iconForContact"
                   />
@@ -45,7 +46,7 @@ const ContactComponent = () => {
               <tr>
                 <td rowSpan="2">
                   <img
-                    src="/myPortfolio_React/img/icon_line.svg"
+                    src={REACT_APP_CDN_HOST_URL + "/public/img/icon_line.svg"}
                     alt="line icon"
                     className="iconForContact"
                   />
@@ -62,7 +63,7 @@ const ContactComponent = () => {
               <tr>
                 <td rowSpan="2">
                   <img
-                    src="/myPortfolio_React/img/icon_github.svg"
+                    src={REACT_APP_CDN_HOST_URL + "/public/img/icon_github.svg"}
                     alt="github icon"
                     className="iconForContact"
                   />
@@ -106,7 +107,7 @@ const ContactComponent = () => {
             </table>
             <div className="qrCode">
               <img
-                src="/myPortfolio_React/img/Line_QR.jpg"
+                src={REACT_APP_CDN_HOST_URL + "/public/img/Line_QR.jpg"}
                 alt="Line_QRcode"
                 style={{ height: "7rem" }}
               />

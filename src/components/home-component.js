@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+const REACT_APP_CDN_HOST_URL = process.env.REACT_APP_CDN_HOST_URL;
 const HomeComponent = () => {
   useEffect(() => {
     const text = document.querySelectorAll(".thePaths");
@@ -95,14 +96,16 @@ const HomeComponent = () => {
                 東京に滞在する台湾人です。
                 <br />
                 日本のことに憧れて、２０１９年に来日しました。
-                日本語を勉強しつつ、将来のことを考えていた中、プログラミングの魅力を感じまして、それをきっかけにプログラミングを独学し始めました。
+                日本語を勉強しつつ、将来のことを考えていた中、プログラミングの魅力を感じた私は独学で知識を獲得し、IT業界に入ってきました。
                 <br />
-                現在は保険会社の情報システム部門でCOBOL、java、curlなどの言語を使って営業統計システムの保守、開発案件に携わっております。
+                最初は証券や保険会社の情報システム部門でCOBOL、java、curlなどの言語を用いて保守、開発案件に携わっていました。その後、一時期とある銀行のクラウド基盤部門でAWSへの移行プロジェクトに参加していました。
                 <br />
-                趣味として、Udemyやネットサイトの記事を介してReactJS、NodeJs及びAWSを勉強しています。AWS
+                現在は自社開発の会社でAWSを利用してIaCやCI/CDを実践し、より迅速かつ継続的な開発ワークフローの構築に取り組んでおります。
+                <br />
+                趣味は、Udemyのオンラインコースやネットサイトの記事でReact、NodeJs及びAWSの知識を勉強することです。AWS
                 SAA資格を持っています。
                 <br />
-                実務経験を将来で活かしていきたいと思いつつ、常に自分の知見を向上させようと考えております。
+                実務経験を積み重ねて、常に自分の知見を向上させようとしております。
               </p>
             </div>
           </div>
@@ -114,16 +117,25 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/towardLogo.jpg"
-                        alt="towardLogo"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/stransaLogo.jpg"}
+                        alt="stransaLogo"
                       />
                     </div>
-                    <p>日本 トワード株式会社 プログラマー 2020～現在</p>
+                    <p>日本 株式会社ストランザ エンジニア 2022～現在</p>
                   </li>
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/ECOVELogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/towardLogo.jpg"}
+                        alt="towardLogo"
+                      />
+                    </div>
+                    <p>日本 トワード株式会社 プログラマー 2020～2022</p>
+                  </li>
+                  <li>
+                    <div>
+                      <img
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/ECOVELogo.jpg"}
                         alt="ECOVELogo"
                       />
                     </div>
@@ -135,7 +147,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/IntercultureLogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/IntercultureLogo.jpg"}
                         alt="IntercultureLogo"
                       />
                     </div>
@@ -144,7 +156,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={"/myPortfolio_React/img/nchuLogo.jpg"}
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"}
                         alt="NCHULogo"
                       />
                     </div>
@@ -153,7 +165,7 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src="/myPortfolio_React/img/nchuLogo.jpg"
+                        src={REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"}
                         alt="NCHULogo"
                       />
                     </div>
@@ -167,7 +179,7 @@ const HomeComponent = () => {
             <div className="h-100 p-3   rounded-3 ">
               <section className="profile">
                 <img
-                  src="/myPortfolio_React/img/IMG_8333.jpg"
+                  src={REACT_APP_CDN_HOST_URL + "/public/img/IMG_8333.jpg"}
                   alt="personal profile"
                   className="profile"
                 />
