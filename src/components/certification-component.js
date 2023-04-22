@@ -5,7 +5,23 @@ const CertificationComponent = () => {
     <main>
       <div className="container py-3 custom_fontSize_p ">
         <div className="row align-items-md-stretch">
-          <div className="col-md-4 o-3column ">
+        <div className="col-md-3 o-3column ">
+            <div className="h-100 p-1 rounded-3">
+              <div className="certification_sub ">
+                <h2 className="border-top  border-bottom p-1">
+                  AWS SAP C-02
+                  <br /> 合格(2023)
+                </h2>
+
+                <img
+                  src={REACT_APP_CDN_HOST_URL + "/public/img/awsSap.jpg"}
+                  alt="awsSAPCertification"
+                  className="shadow-sm profile"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 o-3column ">
             <div className="h-100 p-1 rounded-3">
               <div className="certification_sub ">
                 <h2 className="border-top  border-bottom p-1">
@@ -21,7 +37,7 @@ const CertificationComponent = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4  o-3column ">
+          <div className="col-md-3  o-3column ">
             <div className="h-100 p-1  rounded-3">
               <div className="certification_sub">
                 <h2 className="border-top  border-bottom p-1">
@@ -37,7 +53,7 @@ const CertificationComponent = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4  o-3column ">
+          <div className="col-md-3  o-3column ">
             <div className="h-100 p-1 rounded-3 ">
               <div className="certification_sub">
                 <h2 className="border-top  border-bottom p-1">
