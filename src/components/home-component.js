@@ -123,7 +123,7 @@ const HomeComponent = () => {
                         alt="stransaLogo"
                       />
                     </div>
-                    <p>日本 株式会社ストランザ エンジニア 2022～現在</p>
+                    <p>日本 株式会社ストランザ インフラエンジニア 2022～現在</p>
                   </li>
                   <li>
                     <div>
