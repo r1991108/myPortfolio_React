@@ -44,7 +44,7 @@ const PracticeComponent = () => {
               ◎ React, react-router, Hook(useState, useEffect), JSX
               <p>
                 <a
-                  href={REACT_APP_IMAGE_SEARCH_URL}
+                  href="https://r1991108.github.io/pictureSearchProj/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
