@@ -42,11 +42,7 @@ const PracticeComponent = () => {
             <li className="list-group-item border-0">
               ◎ React, react-router, Hook(useState, useEffect), JSX
               <p>
-                <a
-                  href={"https://r1991108.github.io/pictureSearchProj/"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                >
+                <a href={IMAGE_SEARCH_URL} target={"_blank"} rel={"noreferrer"}>
                   ・ APIを利用し画像検索アプリを作ってみた{" "}
                   <span style={{ color: "rgb(30, 30, 86)" }}>
                     (demoページへ遷移)
