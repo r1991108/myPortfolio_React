@@ -1,5 +1,6 @@
 import React from "react";
 
+const REACT_APP_IMAGE_SEARCH_URL = process.env.REACT_APP_IMAGE_SEARCH_URL;
 const PracticeComponent = () => {
   return (
     <div className="container py-3 custom_fontSize_p ">
