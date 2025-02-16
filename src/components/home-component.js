@@ -117,7 +117,9 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={REACT_APP_CDN_HOST_URL + "/public/img/stransaLogo.jpg"}
+                        src={
+                          REACT_APP_CDN_HOST_URL + "/public/img/stransaLogo.jpg"
+                        }
                         alt="stransaLogo"
                       />
                     </div>
@@ -126,7 +128,9 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={REACT_APP_CDN_HOST_URL + "/public/img/towardLogo.jpg"}
+                        src={
+                          REACT_APP_CDN_HOST_URL + "/public/img/towardLogo.jpg"
+                        }
                         alt="towardLogo"
                       />
                     </div>
@@ -135,7 +139,9 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={REACT_APP_CDN_HOST_URL + "/public/img/ECOVELogo.jpg"}
+                        src={
+                          REACT_APP_CDN_HOST_URL + "/public/img/ECOVELogo.jpg"
+                        }
                         alt="ECOVELogo"
                       />
                     </div>
@@ -147,7 +153,10 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={REACT_APP_CDN_HOST_URL + "/public/img/IntercultureLogo.jpg"}
+                        src={
+                          REACT_APP_CDN_HOST_URL +
+                          "/public/img/IntercultureLogo.jpg"
+                        }
                         alt="IntercultureLogo"
                       />
                     </div>
@@ -156,7 +165,9 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"}
+                        src={
+                          REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"
+                        }
                         alt="NCHULogo"
                       />
                     </div>
@@ -165,7 +176,9 @@ const HomeComponent = () => {
                   <li>
                     <div>
                       <img
-                        src={REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"}
+                        src={
+                          REACT_APP_CDN_HOST_URL + "/public/img/nchuLogo.jpg"
+                        }
                         alt="NCHULogo"
                       />
                     </div>
@@ -183,7 +196,7 @@ const HomeComponent = () => {
                   alt="personal profile"
                   className="profile"
                 />
-                <p>好きな言葉は、</p>
+                <p>座右の銘は、</p>
                 <p>何歳になろうが、好きなことは見つかる</p>
               </section>
             </div>
